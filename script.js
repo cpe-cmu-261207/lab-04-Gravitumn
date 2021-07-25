@@ -84,7 +84,7 @@ const addTask = () => {
             donebtn.style.display = "none"
             delbtn.style.display = "none"
         })
-        l.classList.add('max-w-sm', 'mx-auto', 'my-auto', 'py-2', 'mb-4', 'shadow-xl', 'ring-1', 'ring-black', 'rounded-md', 'p-2', 'italic')
+        l.classList.add('max-w-sm', 'mx-auto', 'my-auto', 'py-2', 'mb-4', 'shadow-xl', 'ring-1', 'ring-black', 'rounded-md', 'p-2', 'italic','bg-white')
 
         ul.insertBefore(l,ul.childNodes[0])
 
@@ -95,8 +95,3 @@ const addTask = () => {
 }
 document.body.append(ul)
 document.body.append(finish)
-
-for(var a in localStorage){
-    input=0
-    addTask
-}
